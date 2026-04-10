@@ -9,8 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "deep-forest": "#1D2A1F",
+        olive: "#2F3F2E",
+        black: "#111111",
+        caramel: "#C7A77A",
+        cream: "#EFE6D7",
+        "off-white": "#F8F5EF",
+        border: "#E0D9CE",
+        muted: "#888888",
+        alert: "#D64C2A",
+      },
+      fontFamily: {
+        display: ["var(--font-playfair)", "Georgia", "serif"],
+        sans: ["var(--font-dm-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-dm-mono)", "monospace"],
+      },
+      borderRadius: {
+        card: "16px",
       },
     },
   },
