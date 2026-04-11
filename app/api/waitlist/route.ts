@@ -2,12 +2,15 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { getWelcomeEmail } from "./welcome-email";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID!;
-const FROM_EMAIL = process.env.FROM_EMAIL || "NURVICA <hello@nurvica.co>";
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 export async function POST(req: NextRequest) {
   try {
+    const resend = getResend();
+    const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID!;
+    const FROM_EMAIL = process.env.FROM_EMAIL || "NURVICA <hello@nurvica.co>";
     const { email } = await req.json();
 
     if (!email || typeof email !== "string" || !email.includes("@")) {
