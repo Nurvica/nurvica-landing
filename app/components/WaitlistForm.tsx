@@ -11,14 +11,32 @@ export default function WaitlistForm({ dark = false }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
+  const [error, setError] = useState("");
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !email.includes("@")) return;
     setLoading(true);
-    // TODO: wire to Mailchimp / ConvertKit / backend
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitted(true);
-    setLoading(false);
+    setError("");
+
+    try {
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Something went wrong.");
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (submitted) {
@@ -64,6 +82,11 @@ export default function WaitlistForm({ dark = false }: Props) {
       >
         {loading ? "Joining..." : "Join the waitlist"}
       </button>
+      {error && (
+        <p className="text-alert text-xs font-sans mt-2 sm:mt-0 sm:absolute sm:-bottom-6 sm:left-0">
+          {error}
+        </p>
+      )}
     </form>
   );
 }
