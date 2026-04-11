@@ -1,4 +1,7 @@
 export function getWelcomeEmail(): string {
+  const siteUrl = process.env.SITE_URL || "https://nurvica.co";
+  const logoUrl = `${siteUrl}/logo-full.png`;
+
   return `
 <!DOCTYPE html>
 <html lang="en">
@@ -15,10 +18,8 @@ export function getWelcomeEmail(): string {
 
           <!-- Header -->
           <tr>
-            <td style="background-color:#1D2A1F; padding:40px 36px; text-align:center;">
-              <p style="margin:0; font-size:14px; letter-spacing:3px; color:#C7A77A; text-transform:uppercase; font-weight:400;">
-                NURVICA
-              </p>
+            <td style="background-color:#EFE6D7; padding:36px; text-align:center;">
+              <img src="${logoUrl}" alt="NURVICA" width="100" height="auto" style="display:block; margin:0 auto;" />
             </td>
           </tr>
 
