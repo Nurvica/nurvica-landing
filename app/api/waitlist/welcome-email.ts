@@ -1,8 +1,7 @@
 export function getWelcomeEmail(): string {
   const raw = (process.env.SITE_URL || "https://nurvica.com").replace(/\/+$/, "");
   const siteUrl = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
-  const whiteLogoUrl = `${siteUrl}/icon.png`;
-  const greenLogoUrl = `${siteUrl}/logo-full.png`;
+  const logoUrl = `${siteUrl}/icon.png`;
 
   return `
 <!DOCTYPE html>
@@ -10,22 +9,9 @@ export function getWelcomeEmail(): string {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" />
+  <meta name="color-scheme" content="only light" />
+  <meta name="supported-color-schemes" content="only light" />
   <title>Welcome to NURVICA</title>
-  <style>
-    .dark-only { display: none !important; mso-hide: all; }
-    @media (prefers-color-scheme: dark) {
-      .header-cell { background-color: #EFE6D7 !important; }
-      .light-only { display: none !important; mso-hide: all; }
-      .dark-only { display: block !important; }
-      .wordmark-text { display: none !important; mso-hide: all; }
-    }
-    [data-ogsc] .header-cell { background-color: #EFE6D7 !important; }
-    [data-ogsc] .light-only { display: none !important; }
-    [data-ogsc] .dark-only { display: block !important; }
-    [data-ogsc] .wordmark-text { display: none !important; }
-  </style>
 </head>
 <body style="margin:0; padding:0; background-color:#F8F5EF; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#F8F5EF;">
@@ -35,12 +21,11 @@ export function getWelcomeEmail(): string {
 
           <!-- Header -->
           <tr>
-            <td class="header-cell" style="background-color:#1D2A1F; padding:40px 36px; text-align:center;">
-              <img class="light-only" src="${whiteLogoUrl}" alt="NURVICA" width="72" height="72" style="display:block; margin:0 auto 12px;" />
-              <div class="wordmark-text" style="font-family:Georgia, 'Times New Roman', serif; font-size:22px; letter-spacing:0.18em; color:#ffffff; font-weight:500;">
+            <td style="background-color:#1D2A1F; padding:40px 36px; text-align:center;">
+              <img src="${logoUrl}" alt="NURVICA" width="72" height="72" style="display:block; margin:0 auto 12px;" />
+              <div style="font-family:Georgia, 'Times New Roman', serif; font-size:22px; letter-spacing:0.18em; color:#ffffff; font-weight:500;">
                 NURVICA
               </div>
-              <img class="dark-only" src="${greenLogoUrl}" alt="NURVICA" width="120" style="display:none; margin:0 auto; max-width:120px; height:auto;" />
             </td>
           </tr>
 
