@@ -1,7 +1,7 @@
 export function getWelcomeEmail(): string {
   const raw = (process.env.SITE_URL || "https://nurvica.com").replace(/\/+$/, "");
   const siteUrl = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
-  const logoUrl = `${siteUrl}/logo-full.png`;
+  const logoUrl = `${siteUrl}/icon.png`;
 
   return `
 <!DOCTYPE html>
@@ -9,6 +9,8 @@ export function getWelcomeEmail(): string {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
   <title>Welcome to NURVICA</title>
 </head>
 <body style="margin:0; padding:0; background-color:#F8F5EF; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">
@@ -19,8 +21,11 @@ export function getWelcomeEmail(): string {
 
           <!-- Header -->
           <tr>
-            <td style="background-color:#EFE6D7; padding:36px; text-align:center;">
-              <img src="${logoUrl}" alt="NURVICA" width="100" height="auto" style="display:block; margin:0 auto;" />
+            <td style="background-color:#1D2A1F; padding:40px 36px; text-align:center;">
+              <img src="${logoUrl}" alt="NURVICA" width="72" height="72" style="display:block; margin:0 auto 12px;" />
+              <div style="font-family:Georgia, 'Times New Roman', serif; font-size:22px; letter-spacing:0.18em; color:#ffffff; font-weight:500;">
+                NURVICA
+              </div>
             </td>
           </tr>
 
