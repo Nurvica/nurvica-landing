@@ -1,5 +1,5 @@
 export function getWelcomeEmail(): string {
-  const siteUrl = process.env.SITE_URL || "https://nurvica.co";
+  const siteUrl = process.env.SITE_URL || "https://nurvica.com";
   const logoUrl = `${siteUrl}/logo-full.png`;
 
   return `

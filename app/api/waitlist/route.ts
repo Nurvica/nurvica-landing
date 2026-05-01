@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
   try {
     const resend = getResend();
     const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID!;
-    const FROM_EMAIL = process.env.FROM_EMAIL || "NURVICA <hello@nurvica.co>";
+    const FROM_EMAIL = process.env.FROM_EMAIL || "NURVICA <info@nurvica.com>";
     const { email } = await req.json();
 
     if (!email || typeof email !== "string" || !email.includes("@")) {
