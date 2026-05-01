@@ -1,5 +1,6 @@
 export function getWelcomeEmail(): string {
-  const siteUrl = process.env.SITE_URL || "https://nurvica.com";
+  const raw = (process.env.SITE_URL || "https://nurvica.com").replace(/\/+$/, "");
+  const siteUrl = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
   const logoUrl = `${siteUrl}/logo-full.png`;
 
   return `
