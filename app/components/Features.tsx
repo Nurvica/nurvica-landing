@@ -10,11 +10,11 @@ const features = [
         <path d="M12 8v4l3 3" />
       </svg>
     ),
-    label: "NURVICA AI",
+    label: "Your Hair Profile",
     badge: "Core",
-    title: "Your personal hair advisor.",
+    title: "No two heads of hair are the same.",
     description:
-      "AI-powered diagnostics built from the ground up for Type 3 and Type 4 hair biology. Personalized profiling, structured routines, and answers that account for your specific texture, porosity, and lifestyle.",
+      "A structured profiling system built around black hair biology. We look at curl pattern, porosity, scalp condition, and the way you actually live, then build guidance that fits the person it's meant for.",
   },
   {
     icon: (
@@ -27,7 +27,7 @@ const features = [
     badge: "In development",
     title: "Structured education, not content noise.",
     description:
-      "A video and written library built around Black hair science. Content surfaces based on your profile and concerns — not a generic feed. Deep explanations of the why behind every recommendation.",
+      "A video and written library built around Black hair science. Content surfaces based on your profile and concerns and not a generic feed. Deep explanations of the why behind every recommendation.",
   },
   {
     icon: (
@@ -56,7 +56,7 @@ const features = [
     badge: "Phase 3",
     title: "Formulated for your texture.",
     description:
-      "A proprietary product line in development — Recovery Serum, Scalp Tonic, Daily Moisture Cream — formulated specifically for Type 3 and Type 4 hair. Trust built at the education level, converted into products that deliver.",
+      "A proprietary product line in development: Recovery Serum, Scalp Tonic, Daily Moisture Cream all formulated specifically for black hair. Trust built at the education level, converted into products that deliver.",
   },
 ];
 

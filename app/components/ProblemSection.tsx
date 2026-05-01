@@ -7,7 +7,7 @@ const problems = [
     number: "01",
     title: "Content is not guidance.",
     description:
-      "Millions of Black men and women turn to TikTok, YouTube, and Reddit for hair advice. These platforms offer content at scale — but zero personalization. What works for one curl pattern and porosity will fail another.",
+      "Millions of Black men and women turn to TikTok, YouTube, and Reddit for hair advice. These platforms offer content at scale but zero personalization. What works for one curl pattern and porosity will fail another.",
   },
   {
     number: "02",
@@ -19,7 +19,7 @@ const problems = [
     number: "03",
     title: "People are giving up.",
     description:
-      "Inconsistent results and a lack of structured guidance are driving people away from natural hair entirely. The problem was never the hair — it was the absence of anything built specifically for it.",
+      "Inconsistent results and a lack of structured guidance are driving people away from natural hair entirely. The problem was never the hair but the absence of anything built specifically for it.",
   },
 ];
 

@@ -36,7 +36,7 @@ export default function FounderSection() {
               their hair. They were frustrated with the absence of real guidance.
               What began as a response to a gap observed daily across the
               barbershop chair has grown into a platform that serves the entire
-              Black community — across every texture and every stage of the
+              Black community across every texture and every stage of the
               hair journey.
             </p>
 

@@ -36,20 +36,20 @@ export function getWelcomeEmail(): string {
                 You're on the list.
               </h1>
               <p style="margin:0 0 18px; font-size:15px; color:#444; line-height:1.7; font-weight:300;">
-                Thank you for joining the NURVICA waitlist. You're now among the first to know when we launch.
+                Thank you for joining the NURVICA waitlist. You're officially first in line.
               </p>
               <p style="margin:0 0 18px; font-size:15px; color:#444; line-height:1.7; font-weight:300;">
-                NURVICA is a personalized hair wellness platform built specifically for Black men and women with textured hair. We're combining AI-powered diagnostics with science-backed education to replace guesswork with guidance that actually fits.
+                NURVICA is being built for Black men and women with textured hair. We're creating a space where guidance actually fits the person it's meant for, where the science is real, and where the culture is part of the foundation rather than an afterthought.
               </p>
               <p style="margin:0 0 18px; font-size:15px; color:#444; line-height:1.7; font-weight:300;">
-                We're building this the right way — with intention, cultural specificity, and zero shortcuts. When it's ready, you'll hear from us first.
+                This is taking time because we're doing it properly. We'd rather get it right than get it fast, and the people we're building for deserve nothing less.
               </p>
 
               <!-- Divider -->
               <hr style="border:none; border-top:1px solid #E0D9CE; margin:28px 0;" />
 
               <p style="margin:0 0 18px; font-size:15px; color:#444; line-height:1.7; font-weight:300;">
-                In the meantime, follow the journey:
+                Until launch, you can follow what we're up to here:
               </p>
 
               <!-- Social links -->
