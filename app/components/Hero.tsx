@@ -54,9 +54,7 @@ export default function Hero() {
           transition={{ delay: 0.35, duration: 0.6 }}
           className="mt-5 font-sans font-light text-deep-forest/60 text-[15px] leading-relaxed max-w-md mx-auto"
         >
-          NURVICA uses AI-powered diagnostics and science-backed education to
-          give Black men and women the personalized guidance their hair actually
-          needs. No more guesswork. No more generic advice.
+          NURVICA gives Black men and women personalized, science-backed guidance built around their actual hair, not a generic version of it. No more guesswork. No more advice that wasn't meant for you.
         </motion.p>
 
         <motion.div

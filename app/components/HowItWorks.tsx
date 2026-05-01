@@ -7,19 +7,19 @@ const pillars = [
     number: "01",
     title: "Personalized diagnostics",
     description:
-      "A structured hair profiling system that accounts for curl pattern, porosity, density, scalp condition, and lifestyle — not a generic quiz. The result is a real picture of what your hair needs and why.",
+      "A real hair profiling system, not a generic quiz. We look at curl pattern, porosity, density, scalp condition, and how you actually live, then give you a clear picture of what your hair needs and why.",
   },
   {
     number: "02",
     title: "Science-backed education",
     description:
-      "Content tied directly to your profile. If you are dealing with breakage, you learn what is actually causing it — whether that is moisture imbalance, protein overload, or mechanical damage. The why, not just the what.",
+      "Content tied directly to your profile. If you are dealing with breakage, you learn what is actually causing it, whether that is moisture imbalance, protein overload, or mechanical damage. The why, not just the what.",
   },
   {
     number: "03",
     title: "Matched routines and products",
     description:
-      "Recommendations based on your actual hair biology. Not trending products, not sponsored posts — what your hair calls for. Over time, backed by a proprietary product line built for Type 3 and Type 4 textures.",
+      "Recommendations based on your actual hair biology. Not trending products, not sponsored posts but what your hair calls for. Over time, backed by a proprietary product line built for Type 3 and Type 4 textures.",
   },
 ];
 
