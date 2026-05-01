@@ -34,8 +34,7 @@ const socialLinks = [
 ];
 
 const legalLinks = [
-  { label: "Privacy policy", href: "#" },
-  { label: "Terms of use", href: "#" },
+  { label: "Privacy policy", href: "/privacy" },
 ];
 
 export default function Footer() {
@@ -102,13 +101,13 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-5">
             {legalLinks.map((link) => (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
                 className="font-mono text-[11px] text-muted/60 hover:text-cream transition-colors duration-150"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
