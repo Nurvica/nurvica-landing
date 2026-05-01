@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,7 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
-        <a href="/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           <Image
             src="/logo-wordmark.png"
             alt="NURVICA"
@@ -34,7 +35,7 @@ export default function Nav() {
             className="h-7 w-auto object-contain"
             priority
           />
-        </a>
+        </Link>
 
         <a
           href="#waitlist"

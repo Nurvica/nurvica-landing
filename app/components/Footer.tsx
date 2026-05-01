@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 const navLinks = [
   { label: "How it works", href: "#how-it-works" },
@@ -44,7 +45,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-10 mb-14">
           {/* Brand */}
           <div className="flex flex-col gap-4 max-w-xs">
-            <a href="/">
+            <Link href="/">
               <Image
                 src="/logo-full.png"
                 alt="NURVICA"
@@ -52,7 +53,7 @@ export default function Footer() {
                 height={120}
                 className="w-20 h-auto object-contain brightness-0 invert opacity-85"
               />
-            </a>
+            </Link>
             <p className="font-sans font-light text-muted text-sm leading-relaxed">
               Rooted in the chair. Grown for the home.
             </p>
