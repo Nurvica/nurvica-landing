@@ -24,7 +24,7 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NURVICA — Rooted in the chair. Grown for the home.",
+  title: "NURVICA",
   description:
     "The first science-backed hair wellness platform built entirely around Black textured hair. Get your personalized hair profile today.",
   openGraph: {
