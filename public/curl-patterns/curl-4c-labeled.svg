@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#EFE6D7"/>
+  <path d="M212 80 L300 96 L212 112 L300 128 L212 144 L300 160 L212 176 L300 192 L212 208 L300 224 L212 240 L300 256 L212 272 L300 288 L212 304 L300 320 L212 336 L300 352 L212 368 L300 384 L212 400 L300 416 L212 432 L256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="478" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" font-weight="500" fill="#111111">4C</text>
+</svg>

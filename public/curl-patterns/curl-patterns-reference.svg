@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600">
+  <rect width="1280" height="600" fill="#EFE6D7"/>
+  <text x="640" y="50" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="500" fill="#111111">Curl pattern reference</text>
+  <text x="640" y="78" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="400" fill="#1D2A1F" opacity="0.7">Loose to tight, left to right</text>
+  <rect x="50" y="110" width="180" height="360" rx="14" fill="#FFFFFF" stroke="#1D2A1F" stroke-width="0.5" stroke-opacity="0.2"/>
+  <g transform="translate(63.5, 212.3) scale(0.299)">
+    <path d="M256 80 Q140 170 256 260 Q372 350 256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="140.0" y="506" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="500" fill="#111111">3A</text>
+  <text x="140.0" y="528" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" fill="#1D2A1F" opacity="0.65">Loose, large curls</text>
+  <rect x="250" y="110" width="180" height="360" rx="14" fill="#FFFFFF" stroke="#1D2A1F" stroke-width="0.5" stroke-opacity="0.2"/>
+  <g transform="translate(263.5, 212.3) scale(0.299)">
+    <path d="M256 80 Q160 140 256 200 Q352 260 256 320 Q160 380 256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="340.0" y="506" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="500" fill="#111111">3B</text>
+  <text x="340.0" y="528" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" fill="#1D2A1F" opacity="0.65">Springy ringlets</text>
+  <rect x="450" y="110" width="180" height="360" rx="14" fill="#FFFFFF" stroke="#1D2A1F" stroke-width="0.5" stroke-opacity="0.2"/>
+  <g transform="translate(463.5, 212.3) scale(0.299)">
+    <path d="M256 80 C150 100 150 160 256 180 C362 200 362 260 256 280 C150 300 150 360 256 380 C362 400 362 430 256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="540.0" y="506" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="500" fill="#111111">3C</text>
+  <text x="540.0" y="528" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" fill="#1D2A1F" opacity="0.65">Tight corkscrews</text>
+  <rect x="650" y="110" width="180" height="360" rx="14" fill="#FFFFFF" stroke="#1D2A1F" stroke-width="0.5" stroke-opacity="0.2"/>
+  <g transform="translate(663.5, 212.3) scale(0.299)">
+    <path d="M256 80 C170 92 170 128 256 140 C342 152 342 188 256 200 C170 212 170 248 256 260 C342 272 342 308 256 320 C170 332 170 368 256 380 C342 392 342 428 256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="740.0" y="506" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="500" fill="#111111">4A</text>
+  <text x="740.0" y="528" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" fill="#1D2A1F" opacity="0.65">Defined coils</text>
+  <rect x="850" y="110" width="180" height="360" rx="14" fill="#FFFFFF" stroke="#1D2A1F" stroke-width="0.5" stroke-opacity="0.2"/>
+  <g transform="translate(863.5, 212.3) scale(0.299)">
+    <path d="M180 80 L332 116 L180 152 L332 188 L180 224 L332 260 L180 296 L332 332 L180 368 L332 404 L256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="940.0" y="506" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="500" fill="#111111">4B</text>
+  <text x="940.0" y="528" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" fill="#1D2A1F" opacity="0.65">Sharp Z-bends</text>
+  <rect x="1050" y="110" width="180" height="360" rx="14" fill="#FFFFFF" stroke="#1D2A1F" stroke-width="0.5" stroke-opacity="0.2"/>
+  <g transform="translate(1063.5, 212.3) scale(0.299)">
+    <path d="M212 80 L300 96 L212 112 L300 128 L212 144 L300 160 L212 176 L300 192 L212 208 L300 224 L212 240 L300 256 L212 272 L300 288 L212 304 L300 320 L212 336 L300 352 L212 368 L300 384 L212 400 L300 416 L212 432 L256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="1140.0" y="506" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="500" fill="#111111">4C</text>
+  <text x="1140.0" y="528" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="400" fill="#1D2A1F" opacity="0.65">Densest zig-zag</text>
+</svg>
