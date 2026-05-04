@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#EFE6D7"/>
+  <path d="M256 80 C170 92 170 128 256 140 C342 152 342 188 256 200 C170 212 170 248 256 260 C342 272 342 308 256 320 C170 332 170 368 256 380 C342 392 342 428 256 440" fill="none" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="478" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" font-weight="500" fill="#111111">4A</text>
+</svg>
