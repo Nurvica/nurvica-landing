@@ -154,6 +154,18 @@ function ChatPageInner() {
     [profile]
   );
 
+  // Open a specific conversation via ?c= (e.g. from a saved routine card).
+  useEffect(() => {
+    if (!hydrated || handledQueryRef.current) return;
+    const c = searchParams.get("c");
+    if (!c) return;
+    setStore((prev) =>
+      prev.conversations.some((conv) => conv.id === c)
+        ? { ...prev, activeId: c }
+        : prev
+    );
+  }, [hydrated, searchParams]);
+
   // Auto-send the ?q= URL param once on first load
   useEffect(() => {
     if (!hydrated || handledQueryRef.current || !profile) return;
